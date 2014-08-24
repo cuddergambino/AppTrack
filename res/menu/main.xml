@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dopamine.apptrack.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sortByTime"
+        android:orderInCategory="1"
+        android:title="Sort by Time"
+        android:titleCondensed="By Time"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/sortByName"
+        android:orderInCategory="2"
+        android:title="Sort by Name"
+        android:titleCondensed="By Name"
+        app:showAsAction="never"/>
+
+</menu>

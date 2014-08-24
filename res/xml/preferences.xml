@@ -1,0 +1,23 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="Settings">
+
+        <CheckBoxPreference
+                android:key="enable_tracking"
+                android:title="Tracking"
+                android:summary="Turns tracking on and off" 
+                android:defaultValue="true"
+                android:persistent="true"	/>
+        <CheckBoxPreference
+                android:key="persistent_notification"
+                android:title="Persistent Notification"
+                android:summary="Displays current app being tracked (active on any next app open)" 
+                android:defaultValue="true"
+                android:persistent="true"	/>
+        
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

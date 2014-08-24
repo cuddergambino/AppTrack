@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:onClick="showOverview"
+    android:id="@+id/appInfoRow"
+    android:tag=""	>
+
+    <ImageView
+        android:id="@+id/icon_image"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="app icon"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@+id/appName"
+        android:textSize="18sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginRight="6dp" >
+
+        <TextView
+            android:id="@+id/totalTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@+id/totalTime"
+            android:textSize="12sp" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/openedCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@+id/openedCount"
+            android:textSize="12sp"	>
+        </TextView>
+        
+        
+    </LinearLayout>
+
+</LinearLayout>
